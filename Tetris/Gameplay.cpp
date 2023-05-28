@@ -29,6 +29,7 @@ void Gameplay::start()
     srand(time(0));
     _frameBuilder.setFrame(frame); // Установка созданного кадра в строитель кадра
     update(); // Вызов функции обновления игры
+    std::cout << "You've lost! Final result: score - " << _score << " and line - " << _line;
 }
 
 void Gameplay::update()

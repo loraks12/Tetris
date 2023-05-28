@@ -8,9 +8,3 @@
 ![image](https://github.com/loraks12/Tetris/assets/134449870/f2e916b7-c109-49db-91aa-321b108295e2)
 ![image](https://github.com/loraks12/Tetris/assets/134449870/08038c05-9b26-4fef-a277-7d06181a8a1d)
 
-основные настройки для вывода построения рамки
-const char _figureSymbol = 219; 
-	const char _borderSymbol = '#';
-	const char _fieldSymbol = ' ';
-	const char _trajectorySymbol = '|';
-  

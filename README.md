@@ -7,3 +7,10 @@
 ![image](https://github.com/loraks12/Tetris/assets/134449870/90f27d6a-b7ef-4508-820f-7c114e7e4378)
 ![image](https://github.com/loraks12/Tetris/assets/134449870/f2e916b7-c109-49db-91aa-321b108295e2)
 ![image](https://github.com/loraks12/Tetris/assets/134449870/08038c05-9b26-4fef-a277-7d06181a8a1d)
+
+основные настройки для вывода построения рамки
+const char _figureSymbol = 219;   // символ, используемый для отображения фигуры
+	const char _borderSymbol = '#';   // символ, используемый для отображения границы
+	const char _fieldSymbol = ' ';   // символ, используемый для отображения поля
+	const char _trajectorySymbol = '|';   // символ, используемый для отображения траектории движения
+  
